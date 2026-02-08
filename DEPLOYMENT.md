@@ -17,7 +17,7 @@ Before deploying, ensure you have:
 
 - Node.js 18 or higher installed
 - npm or yarn package manager
-- Expo CLI installed globally: `npm install -g expo-cli`
+- Expo CLI available via npx (no need to install globally)
 - An Expo account (sign up at https://expo.dev)
 - Git for version control
 
@@ -425,7 +425,7 @@ Regular maintenance tasks:
 1. **Update dependencies monthly:**
    ```bash
    npm update
-   expo upgrade
+   npx expo upgrade
    ```
 
 2. **Monitor error logs** via Sentry or similar service
