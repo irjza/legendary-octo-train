@@ -41,6 +41,13 @@ npm install
 npm start -- --web
 ```
 
+#### Build for Production (Web)
+```bash
+npm run build
+```
+
+This will create a production-ready build in the `dist` folder.
+
 #### iOS (requires macOS)
 ```bash
 npm start -- --ios
@@ -50,6 +57,34 @@ npm start -- --ios
 ```bash
 npm start -- --android
 ```
+
+## Deployment
+
+### Deploying to Netlify
+
+This project is ready to deploy to Netlify. You can deploy it in two ways:
+
+#### Option 1: Connect to Git Repository
+1. Go to [Netlify](https://app.netlify.com/)
+2. Click "Add new site" → "Import an existing project"
+3. Connect your Git provider and select this repository
+4. Netlify will automatically detect the `netlify.toml` configuration
+5. Click "Deploy site"
+
+#### Option 2: Manual Deploy
+1. Build the project locally:
+   ```bash
+   npm run build
+   ```
+2. Go to [Netlify](https://app.netlify.com/)
+3. Drag and drop the `dist` folder to the deploy zone
+
+The deployed site will be fully functional with:
+- Voice recognition support (requires microphone permissions)
+- Full Wordle gameplay
+- Responsive design
+
+**Note:** Make sure users grant microphone permissions in their browser for voice input to work.
 
 ## Technology Stack
 
