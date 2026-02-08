@@ -101,6 +101,39 @@ For the best voice recognition experience on web, use:
 - Microsoft Edge
 - Safari (with microphone permissions)
 
+## Documentation
+
+Comprehensive documentation is available in the following files:
+
+- **[ARCHITECTURE.md](ARCHITECTURE.md)** - Technical architecture and design decisions
+- **[API.md](API.md)** - API documentation for developers
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - Guidelines for contributing to the project
+- **[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)** - Community standards and conduct
+- **[DEPLOYMENT.md](DEPLOYMENT.md)** - Deployment instructions for all platforms
+- **[CHANGELOG.md](CHANGELOG.md)** - Version history and release notes
+- **[PROMPT.md](PROMPT.md)** - AI/LLM development prompt template
+
+## Contributing
+
+We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_CONDUCT.md) before submitting pull requests.
+
+## Project Structure
+
+```
+legendary-octo-train/
+├── App.tsx              # Main application component
+├── gameLogic.ts         # Core game logic and state management
+├── wordList.ts          # Word list and validation
+├── app.json             # Expo configuration
+└── assets/              # Images and static files
+```
+
+## Support
+
+- 📖 Check the [documentation](ARCHITECTURE.md) for detailed information
+- 🐛 Report bugs by opening an [issue](https://github.com/irjza/legendary-octo-train/issues)
+- 💡 Suggest features in [discussions](https://github.com/irjza/legendary-octo-train/discussions)
+
 ## License
 
 ISC
