@@ -374,7 +374,7 @@ Consider adding analytics to track usage:
 **Build Fails:**
 - Clear cache: `npx expo start -c`
 - Delete node_modules and reinstall: `rm -rf node_modules && npm install`
-- Update Expo SDK: `expo upgrade`
+- Update Expo SDK: `npx expo upgrade`
 
 **iOS Simulator Issues:**
 - Reset simulator: `xcrun simctl erase all`
