@@ -39,7 +39,9 @@ Before deploying, ensure you have:
 
 ## Web Deployment
 
-### Option 1: Expo Web Hosting
+### Option 1: Expo Web Hosting (Deprecated)
+
+**Note:** Expo web hosting is deprecated. Use Option 2 (Static Hosting) instead.
 
 1. **Build the web app:**
    ```bash
@@ -48,10 +50,7 @@ Before deploying, ensure you have:
 
 2. **The built files will be in the `web-build` directory**
 
-3. **Deploy using Expo:**
-   ```bash
-   expo publish:web
-   ```
+3. **Deploy the `web-build` directory to a static hosting provider (see Option 2)**
 
 ### Option 2: Static Hosting (Netlify, Vercel, etc.)
 
