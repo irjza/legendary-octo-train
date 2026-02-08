@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Shoutdle",
+    "slug": "shoutdle",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.shoutdle.app",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "This app needs access to the microphone to recognize spoken words for the game.",
+        "NSSpeechRecognitionUsageDescription": "This app needs speech recognition to understand the words you say."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.shoutdle.app",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-speech-recognition"
+    ]
+  }
+}
